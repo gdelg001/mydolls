@@ -1,6 +1,6 @@
 # My Doll Collection App
 
-An Android application for cataloguing a personal collection of fashion
+An Android application for cataloging a personal collection of fashion
 dolls. Each doll is stored in a local SQLite database with its release details,
 attributes, and a photo. The app supports create, read, update and delete operations.
 
