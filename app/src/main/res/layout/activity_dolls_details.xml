@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/details_background"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,7 +55,7 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="315dp"
-        android:layout_height="235dp"
+        android:layout_height="315dp"
         app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,14 +165,14 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/eye_str"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/doll_Eyes"
             android:fontFamily="sans-serif-medium"
             android:text="@string/eye_val"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="25sp"
             app:layout_gravity="right" />
     </androidx.gridlayout.widget.GridLayout>
 
@@ -213,3 +222,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
