@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_background"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DollsDetailsActivity">
+
+    <TextView
+        android:id="@+id/doll_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="cursive"
+        android:text="@string/sacralita"
+        android:textColor="@color/teal"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/doll_image"
+        android:layout_width="272dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="@string/sacralita_image2"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:onClick="AnimateDolls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/doll_Name"
+        app:srcCompat="@drawable/sacralita_2"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="315dp"
+        android:layout_height="235dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doll_image"
+        app:layout_constraintVertical_bias="0.183">
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/model_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doll_Model"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/model_num"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/company_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/company_val"
+            android:id="@+id/doll_Company"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/brand_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/brand_val"
+            android:id="@+id/doll_Brand"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/year_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doll_Year"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/year_num"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/cost_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doll_Cost"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/cost_num"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/body_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doll_Body"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/body_val"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/wig_str"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/doll_Wig"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/wig_val"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_gravity="right" />
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/eye_str"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/doll_Eyes"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/eye_val"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_gravity="right" />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_button"
+        android:text="@string/doll_edit"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/purple"
+        android:textSize="31sp"
+        app:strokeColor="@color/purple"
+        app:strokeWidth="1dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="editDoll"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_button"
+        android:text="@string/doll_delete"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/purple"
+        android:textSize="31sp"
+        app:strokeColor="@color/purple"
+        app:strokeWidth="1dp"
+        android:onClick="deleteDoll"
+        />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

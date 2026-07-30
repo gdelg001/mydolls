@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">My Doll Collection</string>
+    <string name="my_favorite_dolls">Doll Collection</string>
+    <string name="add_a_new_doll">Add a New Doll</string>
+    <string name="ala">Ala</string>
+    <string name="eclata">Eclata</string>
+    <string name="lala">Lala</string>
+    <string name="moona">Moona</string>
+    <string name="sacralita">Sacralita</string>
+
+    <string name="sacralita_image">Sacralita image</string>
+    <string name="eclata_image">Eclata image</string>
+    <string name="ala_image">Ala image</string>
+    <string name="lala_image">Lala Image</string>
+    <string name="moona_image">Moona image</string>
+
+    <string name="model_str"><b>Model:</b></string>
+    <string name="model_num">No.F-525</string>
+    <string name="company_str"><b>Company:</b></string>
+    <string name="company_val">Jun Planning</string>
+    <string name="brand_str"><b>Brand:</b></string>
+    <string name="brand_val">Pullip Family</string>
+    <string name="year_str"><b>Year:</b></string>
+    <string name="year_num">2004</string>
+    <string name="cost_str"><b>Cost:</b></string>
+    <string name="cost_num">8,000 JPY</string>
+    <string name="body_str"><b>Body Type:</b></string>
+    <string name="body_val">Type 2</string>
+    <string name="wig_str"><b>Wig Color:</b></string>
+    <string name="wig_val">Brown</string>
+    <string name="eye_str"><b>Eye Color:</b></string>
+    <string name="eye_val">Brown</string>
+    <string name="sacralita_image2">Sacralita Image2</string>
+
+    <string name="ala_description"><b>Model:</b> No.F-588
+        \n<b>Company:</b> Jun Planning
+        \n<b>Brand:</b> Pullip Family
+        \n<b>Release Year:</b> 2008
+        \n<b>Retail Cost:</b> 10,000 JPY
+        \n<b>Body Type:</b> Type 3
+        \n<b>Wig Color:</b> Brown
+        \n<b>Eye Color:</b> Brown</string>
+    <string name="eclata_description"><b>Model:</b> No.P-247
+        \n<b>Company:</b> Jun Planning
+        \n<b>Brand:</b> Pullip Family
+        \n<b>Release Year:</b> 2020
+        \n<b>Retail Cost:</b> 22,000 JPY
+        \n<b>Body Type:</b> Type 4
+        \n<b>Wig Color:</b> Black
+        \n<b>Eye Chip Color:</b> Gold</string>
+    <string name="lala_description"><b>Model:</b> No.P-278
+        \n<b>Company:</b> Jun Planning
+        \n<b>Brand:</b> Pullip Family
+        \n<b>Release Year:</b> 2021
+        \n<b>Retail Cost:</b> 27,500 JPY
+        \n<b>Body Type:</b> Type 4
+        \n<b>Wig Color:</b> Pink
+        \n<b>Eye Chip Color:</b> Pink</string>
+    <string name="moona_description"><b>Model:</b> No.P-314
+        \n<b>Company:</b> Jun Planning
+        \n<b>Brand:</b> Pullip Family
+        \n<b>Release Year:</b> 2023
+        \n<b>Retail Cost:</b> 30,000 JPY
+        \n<b>Body Type:</b> Type 4
+        \n<b>Wig Color:</b> Blonde
+        \n<b>Eye Chip Color:</b> Pink</string>
+    <string name="new_doll">Doll Info</string>
+    <string name="name_stre">"Doll Name: "</string>
+    <string name="name_str">Name</string>
+    <string name="doll_name">Doll\'s name</string>
+    <string name="doll_model">Doll Model</string>
+    <string name="doll_company">Doll Company</string>
+    <string name="doll_brand">Doll Brand</string>
+    <string name="doll_year">Doll year</string>
+    <string name="doll_cost">Doll Cost</string>
+    <string name="doll_type">Doll Type</string>
+    <string name="doll_wig_color">Doll wig color</string>
+    <string name="doll_eye_color">Doll eye color</string>
+    <string name="doll_photo">Choose Photo</string>
+    <string name="doll_image">Doll image</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="doll_edit">Edit</string>
+    <string name="doll_delete">Delete</string>
+    <string name="save_doll_error">Unable to save doll.</string>
+    <string name="doll_delete_error">Unable to delete doll</string>
+    <string name="image_access_error">Unable to keep access to photo.</string>
+</resources>
